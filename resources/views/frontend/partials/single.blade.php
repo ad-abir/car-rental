@@ -4,7 +4,7 @@
 
     <div class="row row-cols-2 mt-4">
         <div class="col">
-            <img class="img-fluid rounded" src="https://th.bing.com/th/id/OIP.9AA9ELQUr6WsoCJ2WcVcEwHaEK?rs=1&pid=ImgDetMain" class="card-img-top" alt="Transport Car">
+            <img class="img-fluid rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR94F8K8dWvRBnWSAs8hll0NreJm8HWjUtuLJStPwPNPWeQuqiw76CYI80S68vdWiVbw9E&usqp=CAU" class="card-img-top" alt="Transport Car">
         </div>
         <div class="col">
             <h3>Name: {{ $car->name ?? '' }}</h3>

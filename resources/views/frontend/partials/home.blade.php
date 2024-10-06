@@ -7,7 +7,7 @@
            @foreach ($cars as $item)
            <div class="col">
                 <div class="card">
-                    <img class="img-fluid" src="https://disney.fandom.com/wiki/Lightning_McQueen" class="card-img-top" alt="Transport Car">
+                    <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR94F8K8dWvRBnWSAs8hll0NreJm8HWjUtuLJStPwPNPWeQuqiw76CYI80S68vdWiVbw9E&usqp=CAU" class="card-img-top" alt="Transport Car">
                 <div class="card-body">
                     <h5 class="card-title">Name: {{ $item->name ?? '' }}</h5>
                     <p class="card-text">Brand: {{ $item->brand ?? '' }}</p>
